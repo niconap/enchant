@@ -76,3 +76,7 @@ code {
     border-radius: 10px;
     display: block;
 }
+
+code>* {
+    font-family: monospace;
+}
