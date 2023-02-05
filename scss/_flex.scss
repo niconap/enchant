@@ -1,0 +1,41 @@
+/* This file is for styling the flex layout. */
+.flex-row, .flex-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row.flex-2>* {
+    width: calc(100% / 2 - 1rem);
+}
+
+.flex-row.flex-3>* {
+    width: calc(100% / 3 - 1rem);
+}
+
+.flex-row.flex-4>* {
+    width: calc(100% / 4 - 1rem);
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-col>* {
+    width: auto;
+}
+
+.flex-col.flex-2>* {
+    height: calc(100% / 2 - 1rem);
+}
+
+.flex-col.flex-3>* {
+    height: calc(100% / 3 - 1rem);
+}
+
+.flex-col.flex-4>* {
+    height: calc(100% / 4 - 1rem);
+}
