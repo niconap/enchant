@@ -24,7 +24,10 @@ This framework will have the following components (this list will get longer):
 - [ ] Lists
 
 ## Layouts
-This framework will have multiple layout options (to be decided at a later point).
+This framework will have multiple layout options (this list will get longer):
+- [ ] Flex
+- [ ] Grid
+- [ ] Form groups
 
 ## External code used
 This framework uses the following external code/fonts:
