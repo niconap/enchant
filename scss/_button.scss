@@ -13,7 +13,7 @@ $btn-warning-bg-color-transparent: #eadf481d;
     margin: 0.25rem;
     border: 2px solid var(--std-btn-bg-color);
     border-radius: 0.6rem;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
 }
 
 .btn:hover, .btn-outline:hover {
@@ -29,7 +29,7 @@ $btn-warning-bg-color-transparent: #eadf481d;
 
 .btn-outline {
     color: var(--std-btn-bg-color);
-    background-color: var(--std-btn-color);
+    background-color: transparent;
     transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
@@ -130,4 +130,9 @@ $btn-warning-bg-color-transparent: #eadf481d;
 .disable:hover {
     cursor: not-allowed !important;
     box-shadow: none !important;
+}
+
+.disable.btn-outline:hover {
+    background-color: transparent;
+    opacity: 0.65;
 }

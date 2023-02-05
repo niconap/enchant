@@ -1,6 +1,9 @@
+/* This file bundles all the scss together and has general styling rules. */
 @use 'reset';
 @use 'fonts';
 @use 'button';
+@use 'section';
+@use 'flex';
 
 [data-mode="dark"] {
     --std-txt-color: #ffffff;
@@ -22,6 +25,10 @@
     font-family: 'BeVietnamPro', sans-serif;
     color: var(--std-txt-color);
     box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 0;
 }
 
 div {
@@ -68,8 +75,4 @@ code {
     margin: 0.25rem;
     border-radius: 10px;
     display: block;
-}
-
-.section {
-    padding: 0.25em;
 }
