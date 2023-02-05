@@ -27,5 +27,6 @@ This framework will have the following components (this list might change):
 This framework will have lay-outs, I have to decide which ones later.
 
 ## External code used
-This framework uses the following external code:
+This framework uses the following external code/fonts:
 - [normalize.css](https://necolas.github.io/normalize.css/)
+- [BeVietnamPro](https://fonts.google.com/specimen/Be+Vietnam+Pro)
