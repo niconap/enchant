@@ -28,6 +28,15 @@ div {
     background-color: var(--std-bg-color);
 }
 
+nav ul {
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+nav ul li {
+    margin: 0.25rem;
+}
+
 .fnt-light {
     font-weight: 200;
 }

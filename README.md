@@ -12,11 +12,11 @@ This CSS framework should have the following requirements:
 - Easy to extend
 
 ## How am I going to build this?
-I am going to build this framework using SASS and the OOCSS and BEM methodologies. Every time I finish a component, I will add it to the framework. I will also add a documentation page for every component to the wiki on GitHub.
+I am going to build this framework using SASS and the OOCSS and BEM methodologies. Every time I finish a component, I will add it to the framework. Every component will be documented on completion. The documentation can be found [here](https://enchant.niconap.dev/).
 
 ## Components
 This framework will have the following components (this list might change):
-- [ ] Buttons
+- [x] Buttons
 - [ ] Alerts
 - [ ] Badges
 - [ ] Cards
