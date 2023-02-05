@@ -1,6 +1,6 @@
-# CSS Framework
+# Enchant
 
-This project is a CSS framework for building pretty, but simple looking websites. I am building this framework to improve my CSS skills and to be able to use it in my projects to all give them my personal style.
+Enchant is a CSS framework for building pretty, but simple looking websites. I am building this framework to improve my CSS skills and to be able to use it in my projects to all give them my personal style.
 
 ## Requirements
 This CSS framework should have the following requirements:
@@ -16,12 +16,12 @@ I am going to build this framework using SASS and the OOCSS and BEM methodologie
 
 ## Components
 This framework will have the following components (this list might change):
-- [x] Buttons
-- [x] Alerts
-- [x] Badges
-- [x] Cards
-- [x] Links
-- [x] Lists
+- [] Buttons
+- [] Alerts
+- [] Badges
+- [] Cards
+- [] Links
+- [] Lists
 
 ## Lay-outs
 This framework will have lay-outs, I have to decide which ones later.

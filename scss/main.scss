@@ -21,6 +21,7 @@
 * {
     font-family: 'BeVietnamPro', sans-serif;
     color: var(--std-txt-color);
+    box-sizing: border-box;
 }
 
 div {
@@ -49,4 +50,17 @@ div {
 
 .hide {
     display: none;
+}
+
+code {
+    background-color: #f0f0f0;
+    color: #313131;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 10px;
+    display: block;
+}
+
+.section {
+    padding: 0.25em;
 }
