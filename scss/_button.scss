@@ -1,0 +1,34 @@
+/* This file is for styling all the types of buttons. */
+
+.btn, .btn-outline {
+    margin: 0.5rem;
+    border: 2px solid var(--std-btn-bg-color);
+    border-radius: 0.6rem;
+    padding: 1rem 1.5rem;
+}
+
+.btn:hover, .btn-outline:hover {
+    cursor: pointer;
+    box-shadow: 0 0px 10px var(--std-btn-bg-color);
+}
+
+.btn {
+    color: var(--std-btn-color);
+    background-color: var(--std-btn-bg-color);
+    transition: box-shadow 0.2s ease;
+}
+
+.btn-outline {
+    color: var(--std-btn-bg-color);
+    background-color: var(--std-btn-color);
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-outline:hover {
+    background-color: var(--std-btn-bg-color-transparent);
+    opacity: 0.95;
+}
+
+.btn:active, .btn-outline:active {
+    box-shadow: none;
+}
