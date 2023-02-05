@@ -16,12 +16,12 @@ I am going to build this framework using SASS and the OOCSS and BEM methodologie
 
 ## Components
 This framework will have the following components (this list might change):
-- [] Buttons
-- [] Alerts
-- [] Badges
-- [] Cards
-- [] Links
-- [] Lists
+- [ ] Buttons
+- [ ] Alerts
+- [ ] Badges
+- [ ] Cards
+- [ ] Links
+- [ ] Lists
 
 ## Lay-outs
 This framework will have lay-outs, I have to decide which ones later.
