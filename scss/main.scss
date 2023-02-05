@@ -1,6 +1,21 @@
 @use 'reset';
 @use 'fonts';
 
+[data-mode="dark"] {
+    --std-txt-color: #ffffff;
+    --std-bg-color: #1c1c1c;
+}
+
+[data-mode="light"] {
+    --std-txt-color: #1c1c1c;
+    --std-bg-color: #ffffff;
+}
+
 * {
     font-family: 'BeVietnamPro', sans-serif;
+    color: var(--std-txt-color);
+}
+
+div {
+    background-color: var(--std-bg-color);
 }
