@@ -1,7 +1,16 @@
 /* This file is for styling all the types of buttons. */
 
+$btn-prim-bg-color: #33b9f7;
+$btn-prim-bg-color-transparent: #33b9f71d;
+$btn-sec-bg-color: #9c9d9e;
+$btn-sec-bg-color-transparent: #9c9d9e1d;
+$btn-danger-bg-color: #ea5348;
+$btn-danger-bg-color-transparent: #ea53481d;
+$btn-warning-bg-color: #eadf48;
+$btn-warning-bg-color-transparent: #eadf481d;
+
 .btn, .btn-outline {
-    margin: 0.5rem;
+    margin: 0.25rem;
     border: 2px solid var(--std-btn-bg-color);
     border-radius: 0.6rem;
     padding: 1rem 1.5rem;
@@ -30,5 +39,95 @@
 }
 
 .btn:active, .btn-outline:active {
-    box-shadow: none;
+    box-shadow: none !important;
+}
+
+.btn-prim {
+    border-color: $btn-prim-bg-color
+}
+
+.btn-prim:hover {
+    box-shadow: 0 0 10px $btn-prim-bg-color
+}
+
+.btn.btn-prim {
+    background-color: $btn-prim-bg-color
+}
+
+.btn-outline.btn-prim {
+    color: $btn-prim-bg-color;
+}
+
+.btn-outline.btn-prim:hover {
+    background-color: $btn-prim-bg-color-transparent
+}
+
+.btn-sec {
+    border-color: $btn-sec-bg-color;
+}
+
+.btn-sec:hover {
+   box-shadow: 0 0 10px $btn-sec-bg-color
+}
+
+.btn.btn-sec {
+    background-color: $btn-sec-bg-color;
+}
+
+.btn-outline.btn-sec {
+    color: $btn-sec-bg-color;
+}
+
+.btn-outline.btn-sec:hover {
+    background-color: $btn-sec-bg-color-transparent;
+}
+
+.btn-danger {
+    border-color: $btn-danger-bg-color;
+}
+
+.btn-danger:hover {
+    box-shadow: 0 0 10px $btn-danger-bg-color
+}
+
+.btn.btn-danger {
+    background-color: $btn-danger-bg-color;
+}
+
+.btn-outline.btn-danger {
+    color: $btn-danger-bg-color;
+}
+
+.btn-outline.btn-danger:hover {
+    background-color: $btn-danger-bg-color-transparent;
+}
+
+.btn-warning {
+    border-color: $btn-warning-bg-color;
+    color: var(--std-color);
+}
+
+.btn-warning:hover {
+    box-shadow: 0 0 10px $btn-warning-bg-color
+}
+
+.btn.btn-warning {
+    background-color: $btn-warning-bg-color;
+}
+
+.btn-outline.btn-warning:hover {
+    background-color: $btn-warning-bg-color-transparent;
+}
+
+.btn-pill {
+    border-radius: 50px;
+}
+
+.disable {
+    opacity: 0.65;
+}
+
+.disable:hover {
+    cursor: not-allowed !important;
+    box-shadow: none !important;
 }
