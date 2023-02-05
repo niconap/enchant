@@ -25,3 +25,7 @@ This framework will have the following components (this list might change):
 
 ## Lay-outs
 This framework will have lay-outs, I have to decide which ones later.
+
+## External code used
+This framework uses the following external code:
+- [normalize.css](https://necolas.github.io/normalize.css/)
