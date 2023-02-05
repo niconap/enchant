@@ -2,8 +2,11 @@
 
 Enchant is a CSS framework providing clean, simple, but accessible components with ease. 
 
+## Documentation
+The documentation for this CSS framework can be found [here](https://enchant.niconap.dev/)
+
 ## Requirements
-This CSS framework should have the following requirements:
+This CSS framework will have the following requirements:
 - Responsivity
 - Accessibility
 - Cross-browser compatibility
