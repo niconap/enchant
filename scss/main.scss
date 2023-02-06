@@ -29,6 +29,15 @@ nav ul li {
     margin: 0.25rem;
 }
 
+a {
+    color: $link-color;
+    transition: 0.2s color ease;
+}
+
+a:hover {
+    color: $link-hover-color;
+}
+
 .fnt-light {
     font-weight: 200;
 }

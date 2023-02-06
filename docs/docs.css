@@ -33,12 +33,15 @@ nav ul {
 nav h1 {
   margin: 0.25rem 0.5rem;
   font-size: 175%;
+  color: white;
 }
 
-nav h1 a,
-nav h1 {
+nav a {
   color: white;
-  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
 }
 
 #wrapper {
