@@ -1,0 +1,46 @@
+/* This file is for adding custom styling to the docs pages. */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  position: fixed;
+  width: 100%;
+}
+
+@supports (backdrop-filter: blur(20px)) {
+  nav {
+    background-color: #33b9f7c0;
+    backdrop-filter: blur(20px);
+  }
+}
+
+@supports not (backdrop-filter: blur(20px)) {
+  nav {
+    background: #33b9f7;
+  }
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul {
+  margin-right: 0.25rem;
+}
+
+nav h1 {
+  margin: 0.25rem 0.5rem;
+  font-size: 175%;
+}
+
+nav h1 a,
+nav h1 {
+  color: white;
+  text-decoration: none;
+}
+
+#wrapper {
+  padding: calc(8vh + 0.25rem) 0.25rem 0 0.25rem;
+}
