@@ -2,29 +2,55 @@
 
 .section {
     border-radius: 10px;
-    margin: 0.5rem;
-    width: fit-content;
+    margin: 1rem;
+    max-width: 25rem;
     overflow: hidden;
     padding: 0.5em;
     box-shadow: 0 5px 10px $gray;
 
-    .section-top {
-        background-color: $gray;
+    .section-top, .section-top-solid, .section-bottom {
         padding: 0.75rem;
         margin: -0.5rem;
+    }
+
+    .section-top, .section-top-solid {
         margin-bottom: 0.75rem;
+    }
+
+    .section-top {
+        border-bottom: 3px solid $gray;
+    }
+
+    .section-top-solid {
+        background-color: $gray;
+    }
+
+    .section-bottom {
+        border-top: 3px solid $gray;
+        margin-top: 0.75rem;
+        color: $subtitle;
+        font-size: 0.85em;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .banner {
+        border-radius: 0;
+        margin: -0.75rem -0.75rem 0 -0.75rem;
+        width: calc(100% + 1.5rem);
     }
 
     .section-title {
         font-size: 1.5rem;
+        margin-bottom: 0;
     }
 
     .section-subtitle {
         font-size: 1.3rem;
         color: $subtitle;
+        margin-bottom: 0;
     }
 }
-
-/* TO DO:
- * Banner images
- */

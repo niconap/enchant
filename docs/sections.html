@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="docs.css" />
+    <title>Sections | Enchant</title>
+  </head>
+  <body data-mode="light">
+    <nav>
+      <h1><a href="/">Enchant</a></h1>
+      <ul>
+        <li class="inline-blk"><a href="buttons.html">Buttons</a></li>
+        <li class="inline-blk">Sections</li>
+      </ul>
+    </nav>
+    <div id="wrapper">
+      <h1>Sections</h1>
+      <p>
+        Sections behave like cards and can have multiple attributes, such as a
+        banner image or a bottom. Creating a section and defining those
+        components is easy. A section is always a
+        <code class="inline-blk">&lt;div&gt;</code> element.
+      </p>
+      <h2>Basic sections</h2>
+      <p>
+        Sections without any components look like a floating white box. You can
+        add a title and a subtitle to the section.
+      </p>
+      <div class="section">
+        <h1 class="section-title">Title</h1>
+        <h2 class="section-subtitle">Subtitle</h2>
+        <p>A basic section looks like this</p>
+        <button class="btn btn-prim">Button</button>
+      </div>
+      Source code:
+      <code>
+        <span>&lt;div&nbsp;class=&quot;section&quot;&gt;</span>
+        <span>
+          &nbsp;&nbsp;&lt;h1&nbsp;class=&quot;section&#45;title&quot;&gt;Title&lt;/h1&gt;
+        </span>
+        <span>
+          &nbsp;&nbsp;&lt;h2&nbsp;class=&quot;section&#45;subtitle&quot;&gt;Subtitle&lt;/h2&gt;
+        </span>
+        <span>
+          &nbsp;&nbsp;&lt;p&gt;A&nbsp;basic&nbsp;section&nbsp;looks&nbsp;like&nbsp;this&lt;/p&gt;
+        </span>
+        <span
+          >&nbsp;&nbsp;&lt;button&nbsp;class=&quot;btn&nbsp;btn&#45;prim&quot;&gt;Button&lt;/button&gt;</span
+        >
+        <span>&lt;/div&gt;</span></code
+      >
+
+      <h2>Components</h2>
+      <p>
+        Sections can have a top and bottom component. The top component is
+        available in two different types: normal or solid.
+      </p>
+      <div class="section inline-blk">
+        <div class="section-top">
+          <h1 class="section-title">Title</h1>
+          <h2 class="section-subtitle">Subtitle</h2>
+        </div>
+        <p>This is a section with a top and a bottom.</p>
+        <div class="section-bottom">Bottom</div>
+      </div>
+      <div class="section inline-blk">
+        <div class="section-top-solid">
+          <h1 class="section-title">Title</h1>
+          <h2 class="section-subtitle">Subtitle</h2>
+        </div>
+        <p>This is a section with a solid top and a bottom.</p>
+        <div class="section-bottom">Bottom</div>
+      </div>
+      <p>Source code:</p>
+      <code>
+        <span
+          >&lt;div&nbsp;class=&quot;section&nbsp;inline&#45;blk&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;div&nbsp;class=&quot;section&#45;top&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&nbsp;class=&quot;section&#45;title&quot;&gt;Title&lt;/h1&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&nbsp;class=&quot;section&#45;subtitle&quot;&gt;Subtitle&lt;/h2&gt;</span
+        >
+        <span>&nbsp;&nbsp;&lt;/div&gt;</span>
+        <span
+          >&nbsp;&nbsp;&lt;p&gt;This&nbsp;is&nbsp;a&nbsp;section&nbsp;with&nbsp;a&nbsp;top&nbsp;and&nbsp;a&nbsp;bottom.&lt;/p&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;div&nbsp;class=&quot;section&#45;bottom&quot;&gt;Bottom&lt;/div&gt;</span
+        >
+        <span>&lt;/div&gt;</span>
+        <br />
+        <span
+          >&lt;div&nbsp;class=&quot;section&nbsp;inline&#45;blk&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;div&nbsp;class=&quot;section&#45;top&#45;solid&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&nbsp;class=&quot;section&#45;title&quot;&gt;Title&lt;/h1&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&nbsp;class=&quot;section&#45;subtitle&quot;&gt;Subtitle&lt;/h2&gt;</span
+        >
+        <span>&nbsp;&nbsp;&lt;/div&gt;</span>
+        <span
+          >&nbsp;&nbsp;&lt;p&gt;This&nbsp;is&nbsp;a&nbsp;section&nbsp;with&nbsp;a&nbsp;solid&nbsp;top&nbsp;and&nbsp;a&nbsp;bottom.&lt;/p&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;div&nbsp;class=&quot;section&#45;bottom&quot;&gt;Bottom&lt;/div&gt;</span
+        >
+        <span>&lt;/div&gt;</span></code
+      >
+
+      <h1>Images</h1>
+      <p>
+        Sections can also hold images as standard images or banners. Banners
+        span the entire width of the section, while standard images do not.
+      </p>
+      <div class="section inline-blk">
+        <img class="banner" src="../img/nature.jpg" alt="nature" />
+        <div class="section-top">
+          <h1 class="section-title">Image</h1>
+        </div>
+        <p>This section has a banner image.</p>
+      </div>
+      <div class="section inline-blk">
+        <div class="section-top-solid">
+          <h1 class="section-title">Image</h1>
+        </div>
+        <img src="../img/nature.jpg" alt="nature" />
+        <p>This section has a standard image.</p>
+      </div>
+      <p>Source code:</p>
+      <code>
+        <span
+          >&lt;div&nbsp;class=&quot;section&nbsp;inline&#45;blk&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;img&nbsp;class=&quot;banner&quot;&nbsp;src=&quot;../img/nature.jpg&quot;&nbsp;alt=&quot;nature&quot;&nbsp;/&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;div&nbsp;class=&quot;section&#45;top&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&nbsp;class=&quot;section&#45;title&quot;&gt;Image&lt;/h1&gt;</span
+        >
+        <span>&nbsp;&nbsp;&lt;/div&gt;</span>
+        <span
+          >&nbsp;&nbsp;&lt;p&gt;This&nbsp;section&nbsp;has&nbsp;a&nbsp;banner&nbsp;image.&lt;/p&gt;</span
+        >
+        <span>&lt;/div&gt;</span>
+        <br />
+        <span
+          >&lt;div&nbsp;class=&quot;section&nbsp;inline&#45;blk&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;div&nbsp;class=&quot;section&#45;top&#45;solid&quot;&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&nbsp;class=&quot;section&#45;title&quot;&gt;Image&lt;/h1&gt;</span
+        >
+        <span>&nbsp;&nbsp;&lt;/div&gt;</span>
+        <span
+          >&nbsp;&nbsp;&lt;img&nbsp;src=&quot;../img/nature.jpg&quot;&nbsp;alt=&quot;nature&quot;&nbsp;/&gt;</span
+        >
+        <span
+          >&nbsp;&nbsp;&lt;p&gt;This&nbsp;section&nbsp;has&nbsp;a&nbsp;standard&nbsp;image.&lt;/p&gt;</span
+        >
+        <span>&lt;/div&gt;</span>
+      </code>
+    </div>
+  </body>
+</html>
