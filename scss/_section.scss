@@ -1,7 +1,4 @@
 /* This file is for styling sections. */
-$border: #e2e2e2;
-$gray: #f0f0f0;
-$subtitle: #646464;
 
 .section {
     border: 1px solid $border;
@@ -10,23 +7,23 @@ $subtitle: #646464;
     width: fit-content;
     overflow: hidden;
     padding: 0.5em;
-}
 
-.section .section-top {
-    background-color: $gray;
-    padding: 0.75rem;
-    margin: -0.5rem;
-    border-bottom: 1px solid $border;
-    margin-bottom: 0.75rem;
-}
+    .section-top {
+        background-color: $gray;
+        padding: 0.75rem;
+        margin: -0.5rem;
+        border-bottom: 1px solid $border;
+        margin-bottom: 0.75rem;
+    }
 
-.section .section-title {
-    font-size: 1.5rem;
-}
+    .section-title {
+        font-size: 1.5rem;
+    }
 
-.section .section-subtitle {
-    font-size: 1.3rem;
-    color: $subtitle;
+    .section-subtitle {
+        font-size: 1.3rem;
+        color: $subtitle;
+    }
 }
 
 /* TO DO:

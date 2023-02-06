@@ -1,0 +1,28 @@
+$btn-prim-bg-color: #33b9f7;
+$btn-prim-bg-color-transparent: #33b9f71d;
+$btn-sec-bg-color: #9c9d9e;
+$btn-sec-bg-color-transparent: #9c9d9e1d;
+$btn-danger-bg-color: #ea5348;
+$btn-danger-bg-color-transparent: #ea53481d;
+$btn-warning-bg-color: #eadf48;
+$btn-warning-bg-color-transparent: #eadf481d;
+
+$border: #e2e2e2;
+$gray: #f0f0f0;
+$subtitle: #646464;
+
+[data-mode="dark"] {
+    --std-txt-color: #ffffff;
+    --std-bg-color: #1c1c1c;
+    --std-btn-color: #1c1c1c;
+    --std-btn-bg-color: #ffffff;
+    --std-btn-bg-color-transparent: #ffffff1d;
+}
+
+[data-mode="light"] {
+    --std-txt-color: #1c1c1c;
+    --std-bg-color: #ffffff;
+    --std-btn-color: #ffffff;
+    --std-btn-bg-color: #1c1c1c;
+    --std-btn-bg-color-transparent: #1c1c1c1d;
+}
