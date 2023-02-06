@@ -8,8 +8,12 @@
 
 * {
     font-family: 'BeVietnamPro', sans-serif;
-    color: var(--std-txt-color);
+    color: $text;
     box-sizing: border-box;
+}
+
+body {
+    background-color: $background;
 }
 
 h1, h2, h3, h4, h5 {
@@ -17,7 +21,7 @@ h1, h2, h3, h4, h5 {
 }
 
 div {
-    background-color: var(--std-bg-color);
+    background-color: $background;
 }
 
 nav ul {

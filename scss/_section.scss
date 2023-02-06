@@ -6,7 +6,7 @@
     max-width: 25rem;
     overflow: hidden;
     padding: 0.5em;
-    box-shadow: 0 5px 10px $gray;
+    box-shadow: 0 5px 10px $shadow;
 
     .section-top, .section-top-solid, .section-bottom {
         padding: 0.75rem;
@@ -18,15 +18,15 @@
     }
 
     .section-top {
-        border-bottom: 3px solid $gray;
+        border-bottom: 3px solid $shadow;
     }
 
     .section-top-solid {
-        background-color: $gray;
+        background-color: $shadow;
     }
 
     .section-bottom {
-        border-top: 3px solid $gray;
+        border-top: 3px solid $shadow;
         margin-top: 0.75rem;
         color: $subtitle;
         font-size: 0.85em;

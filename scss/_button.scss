@@ -2,30 +2,30 @@
 
 .btn, .btn-outline {
     margin: 0.25rem;
-    border: 2px solid var(--std-btn-bg-color);
+    border: 2px solid $text;
     border-radius: 0.6rem;
     padding: 0.5rem 1.5rem;
 }
 
 .btn:hover, .btn-outline:hover {
     cursor: pointer;
-    box-shadow: 0 0px 10px var(--std-btn-bg-color);
+    box-shadow: 0 0px 10px $text;
 }
 
 .btn {
-    color: var(--std-btn-color);
-    background-color: var(--std-btn-bg-color);
+    color: $background;
+    background-color: $text;
     transition: box-shadow 0.2s ease;
 }
 
 .btn-outline {
-    color: var(--std-btn-bg-color);
+    color: $text;
     background-color: transparent;
     transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .btn-outline:hover {
-    background-color: var(--std-btn-bg-color-transparent);
+    background-color: $background-transparent;
     opacity: 0.95;
 }
 
@@ -95,7 +95,7 @@
 
 .btn-warning {
     border-color: $btn-warning-bg-color;
-    color: var(--std-color);
+    color: $text;
 }
 
 .btn-warning:hover {
