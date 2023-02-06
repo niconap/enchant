@@ -66,6 +66,10 @@ a:hover {
     display: none;
 }
 
+code.inline-blk {
+    overflow: visible;
+}
+
 code {
     background-color: $shadow;
     color: $text;
@@ -73,6 +77,8 @@ code {
     margin: 0.25rem;
     border-radius: 10px;
     display: block;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 
 code>* {
