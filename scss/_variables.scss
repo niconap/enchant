@@ -1,5 +1,6 @@
 [data-mode="dark"] {
     --text: #ffffff;
+    --light-text: #acacac;
     --background: #252525;
     --background-transparent: #ffffff1d;
     --gray: #4b4b4b;
@@ -7,6 +8,7 @@
 
 [data-mode="light"] {
     --text: #252525;
+    --light-text: #646464;
     --background: #ffffff;
     --background-transparent: #2525251d;
     --gray: #f0f0f0;
@@ -25,7 +27,7 @@ $btn-warning-bg-color: #eadf48;
 $btn-warning-bg-color-transparent: #eadf481d;
 
 $shadow: var(--gray);
-$subtitle: #646464;
+$light-text: var(--light-text);
 $text: var(--text);
 $background: var(--background);
 $background-transparent: var(--background-transparent)

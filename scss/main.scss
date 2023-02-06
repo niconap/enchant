@@ -67,8 +67,8 @@ a:hover {
 }
 
 code {
-    background-color: #f0f0f0;
-    color: #313131;
+    background-color: $shadow;
+    color: $text;
     padding: 0.5rem;
     margin: 0.25rem;
     border-radius: 10px;
