@@ -19,8 +19,8 @@ This framework will have the following components (this list will get longer):
 - [x] Buttons
 - [ ] Alerts
 - [ ] Badges
-- [ ] Cards
-- [ ] Links
+- [x] Cards
+- [x] Links
 - [ ] Lists
 
 ## Layouts

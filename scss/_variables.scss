@@ -5,6 +5,7 @@
         --background: #252525;
         --background-transparent: #ffffff1d;
         --gray: #4b4b4b;
+        --shadow: #000000;
     }
 }
 
@@ -15,6 +16,7 @@
         --background: #ffffff;
         --background-transparent: #2525251d;
         --gray: #f0f0f0;
+        --shadow: #f0f0f0;
     }
 }
 
@@ -30,7 +32,8 @@ $btn-danger-bg-color-transparent: #ea53481d;
 $btn-warning-bg-color: #eadf48;
 $btn-warning-bg-color-transparent: #eadf481d;
 
-$shadow: var(--gray);
+$shadow: var(--shadow);
+$gray: var(--gray);
 $light-text: var(--light-text);
 $text: var(--text);
 $background: var(--background);

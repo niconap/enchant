@@ -98,6 +98,14 @@
     color: $text;
 }
 
+/* This extra styling is to make sure the text is also visible on the button
+ * in dark mode. Without it the text would be white on a yellow background,
+ * which is not readable.
+ */
+.btn.btn-warning {
+    color: #252525;
+}
+
 .btn-warning:hover {
     box-shadow: 0 0 10px $btn-warning-bg-color
 }
