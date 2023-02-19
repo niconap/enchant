@@ -9,6 +9,10 @@ nav {
   width: 100%;
 }
 
+p {
+  width: 50%;
+}
+
 @supports (backdrop-filter: blur(20px)) {
   nav {
     background-color: #33b9f7c0;
@@ -45,5 +49,5 @@ nav a:hover {
 }
 
 #wrapper {
-  padding: calc(8vh + 0.25rem) 0.25rem 0 0.25rem;
+  padding: calc(8vh + 1rem) 2rem 0 1rem;
 }
