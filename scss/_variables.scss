@@ -5,7 +5,7 @@
         --background: #252525;
         --background-transparent: #ffffff1d;
         --gray: #4b4b4b;
-        --shadow: #000000;
+        --shadow: #c1c1c1;
     }
 }
 
@@ -23,14 +23,16 @@
 $link-color: #33b9f7;
 $link-hover-color: #3398f7;
 
-$btn-prim-bg-color: #33b9f7;
-$btn-prim-bg-color-transparent: #33b9f71d;
-$btn-sec-bg-color: #9c9d9e;
-$btn-sec-bg-color-transparent: #9c9d9e1d;
-$btn-danger-bg-color: #ea5348;
-$btn-danger-bg-color-transparent: #ea53481d;
-$btn-warning-bg-color: #eadf48;
-$btn-warning-bg-color-transparent: #eadf481d;
+$prim-bg-color: #33b9f7;
+$prim-bg-color-transparent: #33b9f71d;
+$sec-bg-color: #9c9d9e;
+$sec-bg-color-transparent: #9c9d9e1d;
+$success-bg-color: #48ea5a;
+$success-bg-color-transparent: #48ea5a1d;
+$danger-bg-color: #ea5348;
+$danger-bg-color-transparent: #ea53481d;
+$warning-bg-color: #eadf48;
+$warning-bg-color-transparent: #eadf481d;
 
 $shadow: var(--shadow);
 $gray: var(--gray);

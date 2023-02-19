@@ -1,0 +1,71 @@
+/* This file contains the styling for badges. */
+
+.badge {
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.25rem;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: $background;
+    background-color: $text;
+    transition: 0.2s background-color ease;
+    box-shadow: 0 4px 10px $shadow;
+}
+
+a.badge:hover {
+    box-shadow: 0 0 10px $text;
+}
+
+a.badge {
+    text-decoration: none;
+    transition: 0.2s box-shadow ease;
+}
+
+a.badge:hover {
+    color: $background;
+}
+
+a.badge:active {
+    box-shadow: none !important;
+}
+
+.badge-prim {
+    background-color: $prim-bg-color;
+}
+
+a.badge-prim:hover {
+    box-shadow: 0 0 10px $prim-bg-color;
+}
+
+.badge-sec {
+    background-color: $sec-bg-color;
+}
+
+a.badge-sec:hover {
+    box-shadow: 0 0 10px $sec-bg-color;
+}
+
+.badge-danger {
+    background-color: $danger-bg-color;
+}
+
+a.badge-danger:hover {
+    box-shadow: 0 0 10px $danger-bg-color;
+}
+
+.badge-warning {
+    background-color: $warning-bg-color;
+}
+
+a.badge-warning:hover {
+    box-shadow: 0 0 10px $warning-bg-color;
+}
+
+.badge-success {
+    background-color: $success-bg-color;
+}
+
+a.badge-success:hover {
+    box-shadow: 0 0 10px $success-bg-color;
+}

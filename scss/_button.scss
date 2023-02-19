@@ -34,67 +34,87 @@
 }
 
 .btn-prim {
-    border-color: $btn-prim-bg-color
+    border-color: $prim-bg-color
 }
 
 .btn-prim:hover {
-    box-shadow: 0 0 10px $btn-prim-bg-color
+    box-shadow: 0 0 10px $prim-bg-color
 }
 
 .btn.btn-prim {
-    background-color: $btn-prim-bg-color
+    background-color: $prim-bg-color
 }
 
 .btn-outline.btn-prim {
-    color: $btn-prim-bg-color;
+    color: $prim-bg-color;
 }
 
 .btn-outline.btn-prim:hover {
-    background-color: $btn-prim-bg-color-transparent
+    background-color: $prim-bg-color-transparent
 }
 
 .btn-sec {
-    border-color: $btn-sec-bg-color;
+    border-color: $sec-bg-color;
 }
 
 .btn-sec:hover {
-   box-shadow: 0 0 10px $btn-sec-bg-color
+   box-shadow: 0 0 10px $sec-bg-color
 }
 
 .btn.btn-sec {
-    background-color: $btn-sec-bg-color;
+    background-color: $sec-bg-color;
 }
 
 .btn-outline.btn-sec {
-    color: $btn-sec-bg-color;
+    color: $sec-bg-color;
 }
 
 .btn-outline.btn-sec:hover {
-    background-color: $btn-sec-bg-color-transparent;
+    background-color: $sec-bg-color-transparent;
+}
+
+.btn-success {
+    border-color: $success-bg-color;
+}
+
+.btn-success:hover {
+    box-shadow: 0 0 10px $success-bg-color
+}
+
+.btn.btn-success {
+    background-color: $success-bg-color;
+}
+
+.btn-outline.btn-success {
+    color: $success-bg-color;
+}
+
+.btn-outline.btn-success:hover {
+    background-color: $success-bg-color-transparent;
 }
 
 .btn-danger {
-    border-color: $btn-danger-bg-color;
+    border-color: $danger-bg-color;
 }
 
 .btn-danger:hover {
-    box-shadow: 0 0 10px $btn-danger-bg-color
+    box-shadow: 0 0 10px $danger-bg-color
 }
 
 .btn.btn-danger {
-    background-color: $btn-danger-bg-color;
+    background-color: $danger-bg-color;
 }
 
 .btn-outline.btn-danger {
-    color: $btn-danger-bg-color;
+    color: $danger-bg-color;
 }
 
 .btn-outline.btn-danger:hover {
-    background-color: $btn-danger-bg-color-transparent;
+    background-color: $danger-bg-color-transparent;
 }
 
 .btn-warning {
-    border-color: $btn-warning-bg-color;
+    border-color: $warning-bg-color;
     color: $text;
 }
 
@@ -107,15 +127,15 @@
 }
 
 .btn-warning:hover {
-    box-shadow: 0 0 10px $btn-warning-bg-color
+    box-shadow: 0 0 10px $warning-bg-color
 }
 
 .btn.btn-warning {
-    background-color: $btn-warning-bg-color;
+    background-color: $warning-bg-color;
 }
 
 .btn-outline.btn-warning:hover {
-    background-color: $btn-warning-bg-color-transparent;
+    background-color: $warning-bg-color-transparent;
 }
 
 .btn-pill {
