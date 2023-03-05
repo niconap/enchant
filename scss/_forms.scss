@@ -11,6 +11,12 @@ input:not(input[type="submit"]) {
     height: 2em;
     padding: 0.5em;
     transition: 0.1s outline ease;
+    background-color: $background;
+    color: $text;
+}
+
+input:not(input[type="submit"])::placeholder {
+    color: $light-text;
 }
 
 input:not(input[type="submit"]):focus {
