@@ -62,6 +62,18 @@ a.badge-warning:hover {
     box-shadow: 0 0 10px $warning-bg-color;
 }
 
+/* This extra styling is to make sure the text is also visible on the badge
+ * in light mode. Without it the text would be white on a yellow background,
+ * which is not readable.
+ */
+.badge-warning {
+    color: #252525;
+}
+
+.badge-warning:hover {
+    color: #252525 !important;
+}
+
 .badge-success {
     background-color: $success-bg-color;
 }

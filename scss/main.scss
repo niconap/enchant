@@ -6,11 +6,13 @@
 @import 'section';
 @import 'flex';
 @import 'badges';
+@import 'forms';
 
 * {
     font-family: 'BeVietnamPro', sans-serif;
     color: $text;
     box-sizing: border-box;
+    outline: transparent;
 }
 
 body {

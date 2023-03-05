@@ -1,0 +1,60 @@
+/* This file contains the styling for all the forms. */
+
+input, input[type="submit"] {
+    display: block;
+    margin: 1em 0;
+}
+
+input:not(input[type="submit"]) {
+    border-radius: 0.6em;
+    border: 1px solid $light-text;
+    height: 2em;
+    padding: 0.5em;
+    transition: 0.1s outline ease;
+}
+
+input:not(input[type="submit"]):focus {
+    outline: 1.5px solid $light-text;
+}
+
+input:not(input[type="submit"]).error {
+    border: 1px solid $danger-bg-color;
+    background-color: $danger-bg-color-transparent;
+}
+
+input:not(input[type="submit"]).error::placeholder {
+    color: $danger-bg-color;
+}
+
+
+input:not(input[type="submit"]).error:focus {
+    outline: 1.5px solid $danger-bg-color;
+}
+
+.inputgroup {
+    display: flex;
+    align-items: center;
+    height: 3em;
+}
+
+.inputgroup label {
+    display: flex;
+    background-color: $gray;
+    border: 1px solid $light-text;
+    border-right: 0px;
+    height: 2em;
+    padding: 0.5em;
+    align-items: center;
+    border-radius: 0.6em 0 0 0.6em;
+}
+
+.inputgroup label.error {
+    background-color: $danger-bg-color-transparent;
+    border: 1px solid $danger-bg-color;
+    border-right: 0px;
+    color: $danger-bg-color
+}
+
+.inputgroup input:not(input[type="submit"]) {
+    border-radius: 0 0.6em 0.6em 0;
+}

@@ -18,7 +18,7 @@ This CSS framework will have the following requirements:
 This framework will have the following components (this list will get longer):
 - [x] Buttons
 - [ ] Alerts
-- [ ] Badges
+- [x] Badges
 - [x] Cards
 - [x] Links
 - [ ] Lists
