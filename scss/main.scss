@@ -39,10 +39,12 @@ nav ul li {
 a {
     color: $link-color;
     transition: 0.2s color ease;
+    text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
     color: $link-hover-color;
+    text-decoration: underline;
 }
 
 .fnt-light {
