@@ -22,12 +22,12 @@ This framework will have the following components (this list will get longer):
 - [x] Cards
 - [x] Links
 - [ ] Lists
+- [x] Forms
 
 ## Layouts
 This framework will have multiple layout options (this list will get longer):
 - [ ] Flex
 - [ ] Grid
-- [ ] Form groups
 
 ## External code used
 This framework uses the following external code/fonts:
