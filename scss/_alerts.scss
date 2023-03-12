@@ -1,5 +1,27 @@
 /* This file contains the styling for the alerts. */
 
 .alert {
-    border: 1px solid black;
+    border: 2px solid $text;
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: $background-transparent;
+    margin: 1em 0em;
+}
+
+.alert.error {
+    border: 2px solid $danger-bg-color;
+    background-color: $danger-bg-color-transparent;
+    color: $danger-bg-color;
+}
+
+.alert.success {
+    border: 2px solid $success-bg-color;
+    background-color: $success-bg-color-transparent;
+    color: $success-text-color;
+}
+
+.alert.warning {
+    border: 2px solid $warning-bg-color;
+    background-color: $warning-bg-color-transparent;
+    color: $warning-text-color;
 }
