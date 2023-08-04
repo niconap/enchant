@@ -1,4 +1,4 @@
-# Work in progress: Enchant
+# Enchant - ON HOLD
 
 Enchant is a CSS framework providing clean, simple, but accessible components with ease.
 
